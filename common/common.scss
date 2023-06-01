@@ -1,0 +1,115 @@
+// customize sidebar navigator menu 
+
+// * turn off the lock icon for all secure categories in the sidebar *
+
+//.sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge, .sidebar-section-link-wrapper .sidebar-section-link-prefix.span .prefix-badge {
+//   display: none;
+//}
+
+// * hide lock icon for the select categories * 
+
+.category-drop .restricted, [href^="/c/off-topic"] {
+    .d-icon-lock {
+       display: none;
+    }
+}
+
+// * sidebar controls *
+
+body.has-sidebar-page #main-outlet-wrapper {
+    gap: 0 0.8em;
+}
+
+.sidebar-wrapper {
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+    padding-right: 0px;
+}
+
+.sidebar-wrapper .sidebar-sections {
+    padding: 0.6em 0em 0em 0em;
+}
+
+//:root {
+    //--d-sidebar-row-horizontal-padding: 1.25rem;
+//    --d-sidebar-row-height: 2.05em;
+//}
+
+
+// * sidebar bullets *
+
+.sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
+    width: .7em;
+    height: .7em;
+    border-radius: 100%;
+}
+
+// * disable the link to faq, badges, anniversaries *
+
+.sidebar-section-link-wrapper {
+      .sidebar-section-link {
+      &[data-link-name="anniversaries"] {
+      display: none;
+      }
+  }
+}
+
+// * hide the Community Section *
+
+
+.sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
+    display:none;
+}
+
+
+// * hide the Links globe icon* 
+
+//.sidebar-custom-sections .d-icon-globe {
+//  display: none;
+//}
+
+// * category drop down selector * 
+
+// * hide the lock icon for category drop down * 
+
+//.category-drop .restricted .d-icon-lock {
+//       display: none;
+//}
+
+// * category drop box selector wrapping for longer category names *
+
+//.badge-wrapper .badge-category {
+//    text-overflow: ellipsis;
+//   overflow: hidden;
+//    white-space: nowrap;
+//}
+
+// * badge-wrapper bullets *
+
+//.badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
+//  display: none;
+//}
+
+// * hide lock icon for badge wrapper * 
+
+//.badge-wrapper.bullet .d-icon-lock {
+//    display: none;
+//}
+
+// * customize user menu *
+
+.user-menu.revamped {
+    border-radius: 10px;
+}
+
+// * search panel *
+
+.menu-panel.drop-down {
+    border-radius: 10px;
+}
+
+// * pop up menus *
+
+.popup-menu, .popup-menu .btn {
+    border-radius: 10px;
+}
