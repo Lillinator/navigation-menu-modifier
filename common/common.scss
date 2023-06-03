@@ -1,17 +1,54 @@
-// customize sidebar navigator menu 
+// * main font size override *
+
+body {
+    //font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.d-header {
+  height: 64px;
+  box-shadow: 0px 7px 7px rgba(#888888, 0.80);
+  .panel {
+    padding: 0 0 0 0;
+    flex: 0 0 auto;
+  }
+}  
+
+// * customize sidebar navigator menu *
+
+#main-outlet-wrapper {
+    .sidebar-wrapper {
+    margin: 0px 0px 0px 0px;
+    background-color: rgba(#f6f6f6, 0.99);
+//    border-radius: 8px;
+//    top: calc(var(--header-offset) + 30px);
+//    height: calc(100vh - (var(--header-offset) + 60px));
+    }
+}
+
+.sidebar-section-wrapper .sidebar-section-header {
+    font-size: 14;
+    color: #3e2650;
+    font-weight: 600;
+    // align-items: left;
+}
+
+
+.sidebar-section-link-wrapper .sidebar-section-link {
+    align-items: left;
+    color: #333333;
+}
+
+// * hide the Community Section *
+
+.sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
+    display: none;
+}
 
 // * turn off the lock icon for all secure categories in the sidebar *
 
-//.sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge, .sidebar-section-link-wrapper .sidebar-section-link-prefix.span .prefix-badge {
-//   display: none;
-//}
-
-// * hide lock icon for the select categories * 
-
-.category-drop .restricted, [href^="/c/off-topic"] {
-    .d-icon-lock {
-       display: none;
-    }
+.sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge, .sidebar-section-link-wrapper .sidebar-section-link-prefix.span .prefix-badge {
+   display: none;
 }
 
 // * sidebar gap to main body *
@@ -20,13 +57,14 @@ body.has-sidebar-page #main-outlet-wrapper {
     gap: 0 0.8em;
 }
 
-// * sidebar gap to header *
+// * gap to header *
 
 .sidebar-wrapper .sidebar-sections {
-    padding: 0.6em 0em 0em 0em;
+    padding: 0.8em 0em 0em 0em;
 }
 
-// * sidebar bullet style for categories *
+
+// * sidebar bullet styling for categories *
 
 .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
     width: .7em;
@@ -43,15 +81,3 @@ body.has-sidebar-page #main-outlet-wrapper {
       }
   }
 }
-
-// * hide the Community Section *
-
-.sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
-    display:none;
-}
-
-// * hide the Links globe icon* 
-
-//.sidebar-custom-sections .d-icon-globe {
-//  display: none;
-//}
