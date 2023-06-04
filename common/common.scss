@@ -91,9 +91,10 @@ body.has-sidebar-page #main-outlet-wrapper {
 .sidebar-section-link-wrapper {
       .sidebar-section-link {
       &[data-tag-name="code"] {
-      .d-icon.d-icon-tag {
-        color: red;
-       }
+          display: none;
+      //.d-icon.d-icon-tag {
+      //  color: red;
+      // }
      }
   }
 }
