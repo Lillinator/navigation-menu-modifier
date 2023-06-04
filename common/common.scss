@@ -88,16 +88,19 @@ body.has-sidebar-page #main-outlet-wrapper {
   }
 }
 
-.sidebar-section-link-wrapper {
-      .sidebar-section-link {
-      &[data-tag-name="code"] {
-          display: none;
+.sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon {
+    color: red;
+}
+//.sidebar-section-link-wrapper {
+//      .sidebar-section-link {
+//      &[data-tag-name="code"] {
+//          display: none;
       //.d-icon.d-icon-tag {
       //  color: red;
       // }
-     }
-  }
-}
+  //   }
+ // }
+//}
 
 span.username {
   &.moderator .d-icon.d-icon-shield-alt {
