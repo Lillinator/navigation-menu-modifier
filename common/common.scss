@@ -5,8 +5,10 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+// * header control and shadow *
+
 .d-header {
-  height: 64px;
+  height: 60px;
   box-shadow: 0px 7px 7px rgba(#888888, 0.80);
   .panel {
     padding: 0 0 0 0;
@@ -16,6 +18,8 @@ body {
 
 // * customize sidebar navigator menu *
 
+// * sidebar background color *
+
 #main-outlet-wrapper {
     .sidebar-wrapper {
     margin: 0px 0px 0px 0px;
@@ -24,31 +28,6 @@ body {
 //    top: calc(var(--header-offset) + 30px);
 //    height: calc(100vh - (var(--header-offset) + 60px));
     }
-}
-
-.sidebar-section-wrapper .sidebar-section-header {
-    font-size: 14;
-    color: #3e2650;
-    font-weight: 600;
-    // align-items: left;
-}
-
-
-.sidebar-section-link-wrapper .sidebar-section-link {
-    align-items: left;
-    color: #333333;
-}
-
-// * hide the Community Section *
-
-.sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
-    display: none;
-}
-
-// * turn off the lock icon for all secure categories in the sidebar *
-
-.sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge, .sidebar-section-link-wrapper .sidebar-section-link-prefix.span .prefix-badge {
-   display: none;
 }
 
 // * sidebar gap to main body *
@@ -63,6 +42,27 @@ body.has-sidebar-page #main-outlet-wrapper {
     padding: 0.8em 0em 0em 0em;
 }
 
+// * section headers color *
+
+.sidebar-section-wrapper .sidebar-section-header {
+    font-size: 14;
+    color: #3e2650;
+    font-weight: 600;
+    // align-items: left;
+}
+
+// * section links *
+
+.sidebar-section-link-wrapper .sidebar-section-link {
+    align-items: left;
+    color: #333333;
+}
+
+// * hide the Community Section *
+
+.sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
+    display: none;
+}
 
 // * sidebar bullet styling for categories *
 
@@ -70,6 +70,12 @@ body.has-sidebar-page #main-outlet-wrapper {
     width: .7em;
     height: .7em;
     border-radius: 100%;
+}
+
+// * turn off the lock icon for all secure categories in the sidebar *
+
+.sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge, .sidebar-section-link-wrapper .sidebar-section-link-prefix.span .prefix-badge {
+   display: none;
 }
 
 // * disable the link to anniversaries *
