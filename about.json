@@ -2,5 +2,8 @@
   "name": "sidebar-mods",
   "component": true,
   "about_url": "https://github.com/Lillinator/sidebar-mods/blob/main/README.md",
-  "license_url": "https://github.com/Lillinator/sidebar-mods/blob/main/LICENSE"
+  "license_url": "https://github.com/Lillinator/sidebar-mods/blob/main/LICENSE",
+  "authors": "@Lillinator",
+  "theme_version": "1.0",
+  "minimum_discourse_version": "Discourse 3.1.0.beta4"
 }
