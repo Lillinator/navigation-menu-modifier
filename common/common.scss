@@ -60,11 +60,11 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 // * hide the Community Section *
 
- @if $sidebar-community == "true" {
+ @if $hide_sidebar_community == "true" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
     display: none;
     }
- } @else if $sidebar-community == "false" {
+ } @else if $hide_sidebar_community == "false" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
     display: block;
     }
