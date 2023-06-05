@@ -1,14 +1,14 @@
 sidebar_background_color:
   type: string
-  default: #121212
+  default: gray
 
 transp:
-  type: integer
+  type: float
   default: 0.80
   
 header_font_color:
   type: string
-  default: #000000
+  default: black
   
 header_font_weight:
   type: string
