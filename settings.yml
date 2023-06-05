@@ -1,8 +1,8 @@
 sidebar_background_color:
   type: string
-  default: aqua
+  default: red
 
-transp:
+transparency:
   type: float
   default: 0.80
   
