@@ -1,10 +1,6 @@
 sidebar_background_color:
   type: string
   default: white
-
-transparency:
-  type: float
-  default: 0.80
   
 header_font_color:
   type: string
