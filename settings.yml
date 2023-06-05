@@ -87,20 +87,8 @@ category_bullet_rounding:
     - 40%
     - 50%
   description: "Category bullet rounding"
-
-category_bullet_size:
-  type: enum
-  default: auto
-  choices:
-    - auto
-    - 0.7em
-    - 0.8em
-    - 0.9em
-    - 1.0em
-  description: "Category bullet size in ems. Default is 1.0" 
   
 hide_lock_icon:
   type: bool
   default: false
-  description: "Hide the lock badge icon for secured categories"
-  
+  description: "Hide the lock badge icon for secured categories"  
