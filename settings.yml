@@ -68,10 +68,11 @@ category_bullet_rounding:
   default: 0
   choices:
     - 0
-    - 25%
+    - 10%
+    - 20%
+    - 30%
+    - 40%
     - 50%
-    - 75%
-    - 100%
   description: "Category bullet rounding"
   
 hide_lock_icon:
