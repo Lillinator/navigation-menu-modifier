@@ -39,12 +39,12 @@ hide_community_section:
 hide_anniversaries:
   type: bool
   default: false
-  description: "Hide the Anniversaries link"
+  description: "Hide the Anniversaries link in the More section"
   
 hide_birthdays:
   type: bool
   default: false
-  description: "Hide the Birthdays link"
+  description: "Hide the Birthdays link in the More section"
   
 hide_categories_section:
   type: bool
@@ -87,6 +87,17 @@ category_bullet_rounding:
     - 40%
     - 50%
   description: "Category bullet rounding"
+  
+category_bullet_size:
+  type: enum
+  default: auto
+  choices:
+   - auto
+   - 0.7em
+   - 0.8em
+   - 0.9em
+   - 1.0em
+   description: "Category bullet size in ems. Default is 1.0" 
   
 hide_lock_icon:
   type: bool
