@@ -1,3 +1,17 @@
 sidebar_background_color:
   type: string
-  default: red
+  default: #121212
+
+transp:
+  default: 0.80
+  
+header_font_color:
+  type: string
+  default: #000000
+  
+header_font_weight:
+  type: string
+  default: normal
+  
+header_font_size:
+  default: 15
