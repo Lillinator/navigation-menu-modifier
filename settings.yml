@@ -1,0 +1,3 @@
+sidebar_background_color:
+  type: color
+  default: #ffffff
