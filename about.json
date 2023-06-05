@@ -5,4 +5,5 @@
   "license_url": "https://github.com/Lillinator/sidebar-mods/blob/main/LICENSE",
   "authors": "@Lillinator",
   "theme_version": "1.0"
+  "miniumum_discourse_version": "Discourse_3.1.0.beta4"
 }
