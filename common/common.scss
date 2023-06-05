@@ -60,19 +60,65 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 // * hide the Community Section *
 
- @if $hide_sidebar_community == "true" {
+ @if $hide_community_section == "true" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
     display: none;
     }
- } @else if $hide_sidebar_community == "false" {
+ } @else if $hide_community_section == "false" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
     display: block;
     }
 }
 
-//.sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
-//    display: none;
-//}
+// * hide the Categories Section *
+
+ @if $hide_categories_section == "true" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="categories"] {
+    display: none;
+    }
+ } @else if $hide_categories_section == "false" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="categories"] {
+    display: block;
+    }
+}
+
+// * hide the Messages Section *
+
+ @if $hide_messages_section == "true" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="messages"] {
+    display: none;
+    }
+ } @else if $hide_messages_section == "false" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="messages"] {
+    display: block;
+    }
+}
+
+// * hide the Channels Section *
+
+ @if $hide_channels_section == "true" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="channels"] {
+    display: none;
+    }
+ } @else if $hide_channels_section == "false" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="channels"] {
+    display: block;
+    }
+}
+
+// * hide the Private Chat Section *
+
+ @if $hide_personal_chat_section == "true" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="personal-chat"] {
+    display: none;
+    }
+ } @else if $hide_personal_chat_section == "false" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="personal-chat"] {
+    display: block;
+    }
+}
+
+
 
 // * sidebar bullet styling for categories *
 
