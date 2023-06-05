@@ -23,7 +23,7 @@ body {
 #main-outlet-wrapper {
     .sidebar-wrapper {
     margin: 0px 0px 0px 0px;
-    background-color: rgba($sidebar_background_color, $transparency);
+        background-color: rgba($sidebar_background_color, ${transparency});
 //    border-radius: 8px;
 //    top: calc(var(--header-offset) + 30px);
 //    height: calc(100vh - (var(--header-offset) + 60px));
@@ -45,7 +45,7 @@ body.has-sidebar-page #main-outlet-wrapper {
 // * section headers formatting *
 
 .sidebar-section-wrapper .sidebar-section-header {
-    font-size: $header_font_size;
+    font-size: #{$header_font_size}px;
     color: $header_font_color;
     font-weight: $header_font_weight;
     // align-items: left;
