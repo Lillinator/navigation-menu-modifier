@@ -13,3 +13,7 @@ header_font_weight:
 header_font_size:
   type: integer
   default: 15
+
+sidebar-community:
+  type: bool
+  default: false
