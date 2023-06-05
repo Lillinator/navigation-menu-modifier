@@ -64,3 +64,8 @@ category_bullet_rounding:
     - 100%
   description: "Category bullet rounding"
   
+hide_lock_icon:
+  type: bool
+  default: false
+  description: "Hide the lock badge icon for secured categories"
+  
