@@ -84,6 +84,18 @@ body.has-sidebar-page #main-outlet-wrapper {
     }
 }
 
+// * hide the Tags Section *
+
+ @if $hide_tags_section == "true" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="tags"] {
+    display: none;
+    }
+ } @else if $hide_tags_section == "false" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="tags"] {
+    display: block;
+    }
+}
+
 // * hide the Messages Section *
 
  @if $hide_messages_section == "true" {
