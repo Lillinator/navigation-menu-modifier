@@ -23,27 +23,27 @@ header_font_size:
   default: 15
   description: "Section headers text size"
 
-hide_sidebar_community:
+hide_community_section:
   type: bool
   default: false
   description: "Hide the Community Section"
   
-hide_sidebar_categories:
+hide_categories_section:
   type: bool
   default: false
   description: "Hide the Categories Section"
 
-hide_sidebar_messages:
+hide_messages_section:
   type: bool
   default: false
   description: "Hide the Messages Section"
 
-hide_sidebar_channels:
+hide_channels_section:
   type: bool
   default: false
   description: "Hide the Channels Section"
 
-hide_sidebar_personal_chat:
+hide_personal_chat_section:
   type: bool
   default: false
   description: "Hide the Personal Chat Section"
