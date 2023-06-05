@@ -158,11 +158,7 @@ body.has-sidebar-page #main-outlet-wrapper {
     .sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge, .sidebar-section-link-wrapper .sidebar-section-link-prefix.span .prefix-badge {
     display: none;
     }
- } @else if $hide_lock_icon == "false" {
-    .sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge, .sidebar-section-link-wrapper .sidebar-section-link-prefix.span .prefix-badge {
-    display: block;
-    }
-}
+ } 
 
 // * side-bar link icon color clicked *
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon {
@@ -178,17 +174,9 @@ body.has-sidebar-page #main-outlet-wrapper {
          display: none;
         }
       }
-    }
- } 
-//@else if $hide_anniversaries == "false" {
-//   .sidebar-section-link-wrapper {
-//      .sidebar-section-link {
-//         &[data-link-name="anniversaries"] {
-//         display: block;
-//       }
-//      }
-//    }
-//}
+   }
+} 
+
 
 @if $hide_birthdays == "true" {
    .sidebar-section-link-wrapper {
@@ -197,8 +185,8 @@ body.has-sidebar-page #main-outlet-wrapper {
          display: none;
         }
       }
-    }
- } 
+   }
+} 
 
 // * disable the link to anniversaries *
 
