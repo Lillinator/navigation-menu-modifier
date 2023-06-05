@@ -45,9 +45,9 @@ body.has-sidebar-page #main-outlet-wrapper {
 // * section headers formatting *
 
 .sidebar-section-wrapper .sidebar-section-header {
-    font-size: 14;
-    color: #3e2650;
-    font-weight: 600;
+    font-size: $header_font_size;
+    color: $header_font_color;
+    font-weight: $header_font_weight;
     // align-items: left;
 }
 
