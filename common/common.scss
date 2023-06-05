@@ -54,8 +54,10 @@ body.has-sidebar-page #main-outlet-wrapper {
 // * section links *
 
 .sidebar-section-link-wrapper .sidebar-section-link {
-    align-items: left;
-    color: #333333;
+    font-size: #{$link_font_size}px;
+    color: $link_font_color;
+    font-weight: $link_font_weight;
+    // align-items: left;
 }
 
 // * hide the Community Section *
