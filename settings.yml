@@ -1,19 +1,66 @@
 sidebar_background_color:
   type: string
   default: white
+  description: "Side-bar background color"
   
 header_font_color:
   type: string
   default: black
-  
+  description: "Section headers font color"
+
 header_font_weight:
-  type: string
+  type: enum
   default: normal
-  
+  choices:
+    - normal
+    - medium
+    - semibold
+    - bold
+  description: "Section headers font weight"
+
 header_font_size:
   type: integer
   default: 15
+  description: "Section headers text size"
 
 hide_sidebar_community:
   type: bool
   default: false
+  description: "Hide the Community Section"
+  
+hide_sidebar_categories:
+  type: bool
+  default: false
+  description: "Hide the Categories Section"
+
+hide_sidebar_messages:
+  type: bool
+  default: false
+  description: "Hide the Messages Section"
+
+hide_sidebar_channels:
+  type: bool
+  default: false
+  description: "Hide the Channels Section"
+
+hide_sidebar_personal_chat:
+  type: bool
+  default: false
+  description: "Hide the Personal Chat Section"
+
+hide_category_bullets:
+  type: bool
+  default: false
+  description: "Hide the Category bullets"
+  
+category_bullet_rounding:
+  type: enum
+  default: 0
+  choices:
+    - 0
+    - 25%
+    - 50%
+    - 75%
+    - 100%
+  description: "Category bullet rounding"
+  
