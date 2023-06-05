@@ -9,7 +9,7 @@ body {
 
 .d-header {
   height: 60px;
-//  box-shadow: 0px 7px 7px rgba(#888888, 0.80);
+  box-shadow: 0px 7px 7px rgba(#888888, 0.80);
 //  .panel {
 //    padding: 0 0 0 0;
 //    flex: 0 0 auto;
@@ -60,9 +60,19 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 // * hide the Community Section *
 
-.sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
+ @if $sidebar-community == "true" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
     display: none;
+    }
+ } @else if $sidebar-community == "false" {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
+    display: none;
+    }
 }
+
+//.sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
+//    display: none;
+//}
 
 // * sidebar bullet styling for categories *
 
