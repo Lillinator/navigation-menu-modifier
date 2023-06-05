@@ -38,6 +38,16 @@ hide_community_section:
   default: false
   description: "Hide the Community Section"
   
+hide_anniversaries:
+  type: bool
+  default: false
+  description: "Hide the Anniversaries link"
+  
+hide_birthdays:
+  type: bool
+  default: false
+  description: "Hide the Birthdays link"
+  
 hide_categories_section:
   type: bool
   default: false
