@@ -42,6 +42,11 @@ hide_categories_section:
   type: bool
   default: false
   description: "Hide the Categories Section"
+  
+hide_tags_section:
+  type: bool
+  default: false
+  description: "Hide the Tags Section"
 
 hide_messages_section:
   type: bool
