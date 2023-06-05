@@ -92,11 +92,11 @@ category_bullet_size:
   type: enum
   default: auto
   choices:
-   - auto
-   - 0.7em
-   - 0.8em
-   - 0.9em
-   - 1.0em
+    - auto
+    - 0.7em
+    - 0.8em
+    - 0.9em
+    - 1.0em
    description: "Category bullet size in ems. Default is 1.0" 
   
 hide_lock_icon:
