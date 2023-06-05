@@ -13,7 +13,6 @@ header_font_weight:
   default: normal
   choices:
     - normal
-    - medium
     - bold
   description: "Section headers font weight"
 
