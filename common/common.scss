@@ -164,6 +164,23 @@ body.has-sidebar-page #main-outlet-wrapper {
     }
 }
 
+// * side-bar link icon color clicked *
+.sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon {
+    color: red;
+}
+
+// * Community sections to hide *
+
+@each $section in $sections {
+    .sidebar-section-link-wrapper {
+      .sidebar-section-link {
+          &[data-link-name="{$section}"] {
+          display: none;
+          }
+       }
+   }
+}
+
 // * disable the link to anniversaries *
 
 //.sidebar-section-link-wrapper {
@@ -174,9 +191,7 @@ body.has-sidebar-page #main-outlet-wrapper {
 //  }
 //}
 
-.sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon {
-    color: red;
-}
+
 //.sidebar-section-link-wrapper {
 //      .sidebar-section-link {
 //      &[data-tag-name="code"] {
