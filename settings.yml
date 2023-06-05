@@ -1,6 +1,6 @@
 sidebar_background_color:
   type: string
-  default: gray
+  default: darkgrey
 
 transp:
   type: float
