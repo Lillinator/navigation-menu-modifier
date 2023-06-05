@@ -169,17 +169,30 @@ body.has-sidebar-page #main-outlet-wrapper {
     color: red;
 }
 
-// * Community sections to hide *
+// * More sections to hide *
 
-@each $section in $sections {
-    .sidebar-section-link-wrapper {
+@if $hide_anniversaries == "true" {
+   .sidebar-section-link-wrapper {
       .sidebar-section-link {
-          &[data-link-name="{$section}"] {
-          display: none;
-          }
-       }
-   }
-}
+         &[data-link-name="anniversaries"] {
+         display: none;
+        }
+      }
+    }
+ } 
+//@else if $hide_anniversaries == "false" {
+//   .sidebar-section-link-wrapper {
+//      .sidebar-section-link {
+//         &[data-link-name="anniversaries"] {
+//         display: block;
+//       }
+//      }
+//    }
+//}
+
+
+
+
 
 // * disable the link to anniversaries *
 
