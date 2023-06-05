@@ -190,9 +190,15 @@ body.has-sidebar-page #main-outlet-wrapper {
 //    }
 //}
 
-
-
-
+@if $hide_birthdays == "true" {
+   .sidebar-section-link-wrapper {
+      .sidebar-section-link {
+         &[data-link-name="birthdays"] {
+         display: none;
+        }
+      }
+    }
+ } 
 
 // * disable the link to anniversaries *
 
