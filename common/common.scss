@@ -99,8 +99,8 @@ body.has-sidebar-page #main-outlet-wrapper {
 // * sidebar category bullet styling *
 
 .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
-    //width: .8em;
-    //height: .8em;
+    width: $category_bullet_size;
+    height: $category_bullet_size;
     border-radius: $category_bullet_rounding;
 }
 
