@@ -3,6 +3,7 @@ sidebar_background_color:
   default: #121212
 
 transp:
+  type: integer
   default: 0.80
   
 header_font_color:
@@ -14,4 +15,5 @@ header_font_weight:
   default: normal
   
 header_font_size:
+  type: integer
   default: 15
