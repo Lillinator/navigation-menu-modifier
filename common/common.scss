@@ -23,7 +23,7 @@ body {
 #main-outlet-wrapper {
     .sidebar-wrapper {
     margin: 0px 0px 0px 0px;
-    background-color: $sidebar_background_color;
+    background-color: rgba($sidebar_background_color, $transp);
 //    border-radius: 8px;
 //    top: calc(var(--header-offset) + 30px);
 //    height: calc(100vh - (var(--header-offset) + 60px));
