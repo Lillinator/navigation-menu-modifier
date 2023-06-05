@@ -14,5 +14,6 @@ header_font_size:
   type: integer
   default: 15
 
-hide_sidebar-community:
+hide_sidebar_community:
+  type: bool
   default: false
