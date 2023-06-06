@@ -1,12 +1,12 @@
 sidebar_background_color:
   type: string
   default: ""
-  description: "Side-bar background color. blank is default"
+  description: "Side-bar background color. Leave blank for default"
   
 header_font_color:
   type: string
-  default: auto
-  description: "Section headers font color"
+  default: ""
+  description: "Section headers font color. Leave blank for default"
 
 header_font_weight:
   type: enum
@@ -18,7 +18,7 @@ header_font_weight:
 
 header_font_size:
   type: enum
-  default: auto
+  default: ""
   choices:
     - 12
     - 13
@@ -29,16 +29,16 @@ header_font_size:
     - 18
     - 19
     - 20
-  description: "Section headers text size in px"
+  description: "Section headers text size in px. Leave blank for default"
   
 link_font_color:
   type: string
-  default: auto
-  description: "Section link font color"
+  default: ""
+  description: "Section link font color Leave blank for default"
 
 link_font_size:
   type: enum
-  default: auto
+  default: ""
   choices:
     - 12
     - 13
@@ -49,7 +49,7 @@ link_font_size:
     - 18
     - 19
     - 20
-  description: "Section links text size in px"
+  description: "Section links text size in px. Leave blank for default"
 
 hide_community_section:
   type: bool
@@ -115,7 +115,7 @@ category_bullet_rounding:
   
 current_link_icon_color:
   type: enum
-  default: auto
+  default: ""
   choices:
     - red
     - pink
@@ -130,4 +130,4 @@ current_link_icon_color:
     - slategrey
     - white
     - black
-  description: "Color of the current link icon"
+  description: "Color of the current link icon. Leave blank for default"
