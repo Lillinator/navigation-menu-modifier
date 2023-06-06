@@ -1,17 +1,17 @@
 sidebar_background_color:
   type: string
   default: ""
-  description: "Side-bar background color."
+  description: "Side-bar background color in hexadecimal or css color name. Leave blank to use your existing default."
   
 more_section_background_color:
   type: string
   default: ""
-  description: "More section background color."
+  description: "More section background color. Leave blank to use your existing default."
 
 header_font_color:
   type: string
   default: ""
-  description: "Section headers font color. Leave blank for default."
+  description: "Section headers font color. Leave blank to use your existing default."
 
 header_font_weight:
   type: enum
@@ -19,7 +19,7 @@ header_font_weight:
   choices:
     - normal
     - bold
-  description: "Section headers font weight"
+  description: "Section headers font weight."
 
 header_font_size:
   type: enum
@@ -34,12 +34,12 @@ header_font_size:
     - 18
     - 19
     - 20
-  description: "Section headers text size in px. Leave blank for default."
+  description: "Section headers text size in px. Leave blank to use your existing default."
   
 link_font_color:
   type: string
   default: ""
-  description: "Section link font color Leave blank for default."
+  description: "Section link font color. Leave blank to use your existing default."
 
 link_font_size:
   type: enum
@@ -54,32 +54,32 @@ link_font_size:
     - 18
     - 19
     - 20
-  description: "Section links text size in px. Leave blank for default."
+  description: "Section links text size in px. Leave blank to use your existing default."
 
 link_icon_color:
   type: string
   default: ""
-  description: "Color of sidebar link icons. Leave blank for default"
+  description: "Color of sidebar link icons. Leave blank to use your existing default."
   
 current_link_font_color:
   type: string
   default: ""
-  description: "Color of the currently active link font. Leave blank for default."
+  description: "Color of the currently active link font. Leave blank to use your existing default."
   
 current_link_background_color:
   type: string
   default: ""
-  description: "Background color of the currently active link. Leave blank for default."
+  description: "Background color of the currently active link. Leave blank to use your existing default."
  
 current_link_icon_color:
   type: string
   default: ""
-  description: "Color of the currently active link icon. Leave blank for default."
+  description: "Color of the currently active link icon. Leave blank to use your existing default."
   
 hide_community_section:
   type: bool
   default: false
-  description: "Hide the Community Section"
+  description: "Hide the Community Section from all regular users"
   
 hide_community_section_from_anon:
   type: bool
@@ -99,7 +99,7 @@ hide_birthdays:
 hide_categories_section:
   type: bool
   default: false
-  description: "Hide the Categories Section."
+  description: "Hide the Categories Section from all regular users."
   
 hide_categories_from_anon:
   type: bool
@@ -109,7 +109,7 @@ hide_categories_from_anon:
 hide_tags_section:
   type: bool
   default: false
-  description: "Hide the Tags Section."
+  description: "Hide the Tags Section from all regular users."
   
 hide_tags_from_anon:
   type: bool
@@ -143,12 +143,11 @@ hide_lock_icon:
 
 category_bullet_rounding:
   type: enum
-  default: 0
+  default: ""
   choices:
-    - 0
     - 10%
     - 20%
     - 30%
     - 40%
     - 50%
-  description: "Category bullet rounding. 0 = square, 50% = circle."
+  description: "Category bullet rounding. Blank = default square, 50% = circle."
