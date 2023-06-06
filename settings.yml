@@ -55,17 +55,22 @@ current_link_icon_color:
   type: enum
   default: ""
   choices:
+    - maroon
     - red
     - pink
+    - fuchsia
     - purple
     - blue
     - navy
+    - teal
+    - lime
     - green
     - aqua
+    - olive
     - gold   
     - yellow
     - silver
-    - slategrey
+    - grey
     - white
     - black
   description: "Color of the current link icon. Leave blank for default."
