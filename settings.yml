@@ -64,17 +64,17 @@ link_icon_color:
 current_link_font_color:
   type: string
   default: ""
-  description: "Color of the currently active link font. Leave blank to use current default."
+  description: "Color of the active link font. Leave blank to use current default."
   
 current_link_background_color:
   type: string
   default: ""
-  description: "Background color of the currently active link. Leave blank to use current default."
+  description: "Background color of the active link. Leave blank to use current default."
  
 current_link_icon_color:
   type: string
   default: ""
-  description: "Color of the currently active link icon. Leave blank to use current default."
+  description: "Color of the active link icon. Leave blank to use current default."
   
 hide_community_section:
   type: bool
