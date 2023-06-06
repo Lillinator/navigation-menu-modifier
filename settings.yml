@@ -91,4 +91,25 @@ category_bullet_rounding:
 hide_lock_icon:
   type: bool
   default: false
-  description: "Hide the lock badge icon for secured categories"  
+  description: "Hide the lock badge icon for secured categories"
+  
+current_link_icon_color:
+  type: enum
+  default: auto
+  choices:
+    - auto
+    - red
+    - pink
+    - purple
+    - blue
+    - navy
+    - green
+    - aqua
+    - gold   
+    - yellow
+    - silver
+    - slategrey
+    - white
+    - black
+  description: "Color of the current link icon"
+  
