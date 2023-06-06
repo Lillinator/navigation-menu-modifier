@@ -33,6 +33,11 @@ header_font_size:
   description: "Section headers text size in px"
   
 link_font_color:
+  type: string
+  default: auto
+  description: "Section link font color"
+
+link_font_size:
   type: enum
   default: auto
   choices:
@@ -46,11 +51,6 @@ link_font_color:
     - 18
     - 19
     - 20
-  description: "Section link font color"
-
-link_font_size:
-  type: integer
-  default: 15
   description: "Section links text size"
 
 hide_community_section:
