@@ -49,7 +49,7 @@ body.has-sidebar-page #main-outlet-wrapper {
 // * hide the Community Section from anon users *
 
  @if $hide_community_section_from_anon == "true" {
-    .anon .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
+    .anon .sidebar-section-wrapper.sidebar-section[data-section-name="cfl-forums"] {
     display: none;
     }
  } 
