@@ -1,7 +1,7 @@
 sidebar_background_color:
   type: string
-  default: auto
-  description: "Side-bar background color"
+  default: ""
+  description: "Side-bar background color. blank is default"
   
 header_font_color:
   type: string
@@ -20,7 +20,6 @@ header_font_size:
   type: enum
   default: auto
   choices:
-    - 11
     - 12
     - 13
     - 14
@@ -41,7 +40,6 @@ link_font_size:
   type: enum
   default: auto
   choices:
-    - 11
     - 12
     - 13
     - 14
@@ -51,7 +49,7 @@ link_font_size:
     - 18
     - 19
     - 20
-  description: "Section links text size"
+  description: "Section links text size in px"
 
 hide_community_section:
   type: bool
