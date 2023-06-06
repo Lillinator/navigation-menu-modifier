@@ -1,11 +1,11 @@
 sidebar_background_color:
   type: string
-  default: 
+  default: auto
   description: "Side-bar background color"
   
 header_font_color:
   type: string
-  default: 
+  default: auto
   description: "Section headers font color"
 
 header_font_weight:
@@ -18,7 +18,7 @@ header_font_weight:
 
 header_font_size:
   type: enum
-  default: 
+  default: auto
   choices:
     - 12
     - 13
@@ -31,7 +31,7 @@ header_font_size:
   
 link_font_color:
   type: string
-  default: 
+  default: auto
   description: "Section link font color"
 
 link_font_size:
@@ -103,7 +103,7 @@ category_bullet_rounding:
   
 current_link_icon_color:
   type: enum
-  default: 
+  default: auto
   choices:
     - red
     - pink
