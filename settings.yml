@@ -46,7 +46,7 @@ link_font_size:
     - 20
   description: "Section links text size in px. Leave blank for default."
   
-active_link_font_color:
+current_link_font_color:
   type: string
   default: ""
   description: "Current link font color. Leave blank for default."
