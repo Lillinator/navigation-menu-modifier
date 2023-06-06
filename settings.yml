@@ -8,6 +8,16 @@ header_font_color:
   default: ""
   description: "Section headers font color. Leave blank for default"
 
+active_link_background_color:
+  type: string
+  default: ""
+  description: "Current link background color. Leave blank for default"
+  
+active_link_font_color:
+  type: string
+  default: ""
+  description: "Current link font color. Leave blank for default"
+
 header_font_weight:
   type: enum
   default: normal
