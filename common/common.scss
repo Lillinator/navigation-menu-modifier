@@ -2,12 +2,14 @@
 
 #main-outlet-wrapper {
     .sidebar-wrapper {
-    margin: 0px 0px 0px 0px;
-    background-color: $sidebar_background_color;
-//    border-radius: 8px;
-//    top: calc(var(--header-offset) + 30px);
-//    height: calc(100vh - (var(--header-offset) + 60px));
+       background-color: $sidebar_background_color;
     }
+}
+
+// * sidebar footer background color *
+
+.sidebar-footer-wrapper .sidebar-footer-container {
+    background-color: $sidebar_background_color;
 }
 
 // * sidebar gap to main body *
@@ -138,7 +140,6 @@ body.has-sidebar-page #main-outlet-wrapper {
       }
    }
 } 
-
 
 //.sidebar-section-link-wrapper {
 //      .sidebar-section-link {
