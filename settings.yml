@@ -59,32 +59,32 @@ link_font_size:
 link_icon_color:
   type: string
   default: ""
-  description: "Color of sidebar link icons. Leave blank to use current default."
+  description: "Color of side-bar link icons. Leave blank to use current default."
   
 current_link_font_color:
   type: string
   default: ""
-  description: "Color of the active link font. Leave blank to use current default."
+  description: "Color of the active side-bar link font. Leave blank to use current default."
   
 current_link_background_color:
   type: string
   default: ""
-  description: "Background color of the active link. Leave blank to use current default."
+  description: "Background color of the active side-bar link. Leave blank to use current default."
  
 current_link_icon_color:
   type: string
   default: ""
-  description: "Color of the active link icon. Leave blank to use current default."
+  description: "Color of the active side-bar link icon. Leave blank to use current default."
   
 hide_community_section:
   type: bool
   default: false
-  description: "Hide the Community Section from all regular users"
+  description: "Hide the side-bar Community Section from all regular users"
   
 hide_community_section_from_anon:
   type: bool
   default: false
-  description: "Hide the Community Section from anonymous users only."
+  description: "Hide the side-bar Community Section from anonymous users only."
     
 hide_anniversaries:
   type: bool
@@ -99,37 +99,37 @@ hide_birthdays:
 hide_categories_section:
   type: bool
   default: false
-  description: "Hide the Categories Section from all regular users."
+  description: "Hide the sidebar Categories Section from all regular users."
   
 hide_categories_from_anon:
   type: bool
   default: false
-  description: "Hide the Categories Section from anonymous users only."
+  description: "Hide the side-bar Categories Section from anonymous users only."
 
 hide_tags_section:
   type: bool
   default: false
-  description: "Hide the Tags Section from all regular users."
+  description: "Hide the side-bar Tags Section from all regular users."
   
 hide_tags_from_anon:
   type: bool
   default: false
-  description: "Hide the Tags Section from anonymous users only."
+  description: "Hide the side-bar Tags Section from anonymous users only."
 
 hide_messages_section:
   type: bool
   default: false
-  description: "Hide the Messages Section."
+  description: "Hide the side-bar Messages Section."
 
 hide_channels_section:
   type: bool
   default: false
-  description: "Hide the Channels Section."
+  description: "Hide the side-bar Channels Section."
 
 hide_personal_chat_section:
   type: bool
   default: false
-  description: "Hide the Personal Chat Section."
+  description: "Hide the side-bar Personal Chat Section."
 
 hide_category_bullets:
   type: bool
@@ -150,4 +150,4 @@ category_bullet_rounding:
     - 30%
     - 40%
     - 50%
-  description: "Category bullet rounding in sidebar. Blank = default square, 50% = circle."
+  description: "Side-bar category bullet rounding. Blank = default square, 50% = circle."
