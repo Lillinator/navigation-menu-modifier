@@ -55,21 +55,26 @@ link_font_size:
     - 19
     - 20
   description: "Section links text size in px. Leave blank for default."
+
+link_icon_color:
+  type: string
+  default: ""
+  description: "Color of sidebar link icons. Leave blank for default"
   
 current_link_font_color:
   type: string
   default: ""
-  description: "Current link font color. Leave blank for default."
+  description: "Color of the currently active link font. Leave blank for default."
   
 current_link_background_color:
   type: string
   default: ""
-  description: "Background color of the current link. Leave blank for default."
+  description: "Background color of the currently active link. Leave blank for default."
  
 current_link_icon_color:
   type: string
   default: ""
-  description: "Color of the current link icon. Leave blank for default."
+  description: "Color of the currently active link icon. Leave blank for default."
   
 hide_community_section:
   type: bool
