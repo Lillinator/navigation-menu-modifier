@@ -1,17 +1,20 @@
 sidebar_background_color:
   type: string
   default: ""
-  description: "Side-bar background color in hexadecimal or css color name. Leave blank to use current default."
+  description: 
+    en: "Side-bar background color in hexadecimal or css color name. Leave blank to use current default."
   
 more_section_background_color:
   type: string
   default: ""
-  description: "More section background color. Leave blank to use current default."
+  description: 
+    en: "More section background color. Leave blank to use current default."
 
 header_font_color:
   type: string
   default: ""
-  description: "Section headers font color. Leave blank to use current default."
+  description: 
+    en: "Section headers font color. Leave blank to use current default."
 
 header_font_weight:
   type: enum
@@ -19,7 +22,8 @@ header_font_weight:
   choices:
     - normal
     - bold
-  description: "Section headers font weight."
+  description: 
+    en: "Section headers font weight."
 
 header_font_size:
   type: enum
@@ -34,12 +38,14 @@ header_font_size:
     - 18
     - 19
     - 20
-  description: "Section headers text size in px. Leave blank to use current default."
+  description: 
+    en: "Section headers text size in px. Leave blank to use current default."
   
 link_font_color:
   type: string
   default: ""
-  description: "Section link font color. Leave blank to use current default."
+  description: 
+    en: "Section link font color. Leave blank to use current default."
 
 link_font_size:
   type: enum
@@ -54,67 +60,80 @@ link_font_size:
     - 18
     - 19
     - 20
-  description: "Section links text size in px. Leave blank to use current default."
+  description: 
+    en: "Section links text size in px. Leave blank to use current default."
 
 link_icon_color:
   type: string
   default: ""
-  description: "Color of side-bar link icons. Leave blank to use current default."
+  description: 
+    en: "Color of side-bar link icons. Leave blank to use current default."
   
 current_link_font_color:
   type: string
   default: ""
-  description: "Color of the active side-bar link font. Leave blank to use current default."
+  description: 
+    en: "Color of the active side-bar link font. Leave blank to use current default."
   
 current_link_background_color:
   type: string
   default: ""
-  description: "Background color of the active side-bar link. Leave blank to use current default."
+  description: 
+    en: "Background color of the active side-bar link. Leave blank to use current default."
  
 current_link_icon_color:
   type: string
   default: ""
-  description: "Color of the active side-bar link icon. Leave blank to use current default."
+  description: 
+    en: "Color of the active side-bar link icon. Leave blank to use current default."
   
 hide_community_section:
   type: bool
   default: false
-  description: "Hide the side-bar Community Section from all regular users"
+  description: 
+    en: "Hide the side-bar Community Section from all regular users"
   
 hide_community_section_from_anon:
   type: bool
   default: false
-  description: "Hide the side-bar Community Section from anonymous users only."
+  description: 
+    en: "Hide the side-bar Community Section from anonymous users only."
     
 hide_anniversaries:
   type: bool
   default: false
-  description: "Hide the Anniversaries link in the More section."
+  description: 
+    en: "Hide the Anniversaries link in the More section."
 
 hide_birthdays:
   type: bool
   default: false
-  description: "Hide the Birthdays link in the More section."
+  description: 
+    en: "Hide the Birthdays link in the More section."
 
 hide_categories_section:
   type: bool
   default: false
-  description: "Hide the sidebar Categories Section from all regular users."
+  description: 
+    en: "Hide the sidebar Categories Section from all regular users."
   
 hide_categories_from_anon:
   type: bool
   default: false
-  description: "Hide the side-bar Categories Section from anonymous users only."
+  description: 
+    en: "Hide the side-bar Categories Section from anonymous users only."
 
 hide_tags_section:
   type: bool
   default: false
-  description: "Hide the side-bar Tags Section from all regular users."
+  description: 
+    en: "Hide the side-bar Tags Section from all regular users."
   
 hide_tags_from_anon:
   type: bool
   default: false
-  description: "Hide the side-bar Tags Section from anonymous users only."
+  description: 
+    en: "Hide the side-bar Tags Section from anonymous users only."
 
 hide_messages_section:
   type: bool
@@ -124,22 +143,26 @@ hide_messages_section:
 hide_channels_section:
   type: bool
   default: false
-  description: "Hide the side-bar Channels Section."
+  description: 
+    en: "Hide the side-bar Channels Section."
 
 hide_personal_chat_section:
   type: bool
   default: false
-  description: "Hide the side-bar Personal Chat Section."
+  description: 
+    en: "Hide the side-bar Personal Chat Section."
 
 hide_category_bullets:
   type: bool
   default: false
-  description: "Hide the Category bullets in the side-bar."
+  description: 
+    en: "Hide the Category bullets in the side-bar."
   
 hide_lock_icon:
   type: bool
   default: false
-  description: "Hide the lock badge icon for secured categories in the side-bar."
+  description: 
+    en: "Hide the lock badge icon for secured categories in the side-bar."
 
 category_bullet_rounding:
   type: enum
@@ -150,4 +173,5 @@ category_bullet_rounding:
     - 30%
     - 40%
     - 50%
-  description: "Side-bar category bullet rounding. Blank = default square, 50% = circle."
+  description: 
+    en: "Side-bar category bullet rounding. Blank = default square, 50% = circle."
