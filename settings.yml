@@ -1,3 +1,13 @@
+sidebar_background_color:
+  type: string
+  default: ""
+  description: "Side-bar background color."
+  
+more_section_background_color:
+  type: string
+  default: ""
+  description: "More section background color."
+
 header_font_color:
   type: string
   default: ""
@@ -51,6 +61,11 @@ current_link_font_color:
   default: ""
   description: "Current link font color. Leave blank for default."
   
+current_link_background_color:
+  type: string
+  default: ""
+  description: "Background color of the current link. Leave blank for default."
+ 
 current_link_icon_color:
   type: enum
   default: ""
@@ -74,7 +89,7 @@ current_link_icon_color:
     - white
     - black
   description: "Color of the current link icon. Leave blank for default."
-
+  
 hide_community_section:
   type: bool
   default: false
