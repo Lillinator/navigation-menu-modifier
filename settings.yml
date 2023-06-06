@@ -50,6 +50,25 @@ active_link_font_color:
   type: string
   default: ""
   description: "Current link font color. Leave blank for default."
+  
+current_link_icon_color:
+  type: enum
+  default: ""
+  choices:
+    - red
+    - pink
+    - purple
+    - blue
+    - navy
+    - green
+    - aqua
+    - gold   
+    - yellow
+    - silver
+    - slategrey
+    - white
+    - black
+  description: "Color of the current link icon. Leave blank for default."
 
 hide_community_section:
   type: bool
@@ -137,22 +156,3 @@ category_bullet_rounding:
     - 40%
     - 50%
   description: "Category bullet rounding. 0 = square, 50% = circle."
-  
-current_link_icon_color:
-  type: enum
-  default: ""
-  choices:
-    - red
-    - pink
-    - purple
-    - blue
-    - navy
-    - green
-    - aqua
-    - gold   
-    - yellow
-    - silver
-    - slategrey
-    - white
-    - black
-  description: "Color of the current link icon. Leave blank for default."
