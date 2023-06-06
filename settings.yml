@@ -2,7 +2,7 @@ sidebar_background_color:
   type: string
   default: ""
   description: 
-    en: "Side-bar background color in hexadecimal or css color name. Leave blank to use current default."
+    en: "Side-bar background color in hexadecimal, css color name or Discourse color variable. Leave blank to use current default."
   
 more_section_background_color:
   type: string
