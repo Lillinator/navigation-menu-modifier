@@ -68,6 +68,14 @@ body.has-sidebar-page #main-outlet-wrapper {
     }
  } 
 
+// * hide the Community Section from anon users *
+
+ @if $hide_community_section_from_anon == "true" {
+    .anon .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
+    display: none;
+    }
+ } 
+
 // * hide the Categories Section *
 
  @if $hide_categories_section == "true" {
@@ -76,10 +84,25 @@ body.has-sidebar-page #main-outlet-wrapper {
     }
  } 
 
+// * hide the Categories Section from anon users *
+
+ @if $hide_categories_from_anon == "true" {
+    .anon .sidebar-section-wrapper.sidebar-section[data-section-name="categories"] {
+    display: none;
+    }
+ } 
+
 // * hide the Tags Section *
 
  @if $hide_tags_section == "true" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="tags"] {
+    display: none;
+    }
+ } 
+// * hide the Tags Section from anon users *
+
+ @if $hide_tags_from_anon == "true" {
+    .anon .sidebar-section-wrapper.sidebar-section[data-section-name="tags"] {
     display: none;
     }
  } 
@@ -144,9 +167,29 @@ body.has-sidebar-page #main-outlet-wrapper {
    }
 } 
 
+@if $hide_anniversaries_from_anon == "true" {
+   .sidebar-section-link-wrapper {
+      .anon .sidebar-section-link {
+         &[data-link-name="anniversaries"] {
+         display: none;
+        }
+      }
+   }
+} 
+
 @if $hide_birthdays == "true" {
    .sidebar-section-link-wrapper {
       .sidebar-section-link {
+         &[data-link-name="birthdays"] {
+         display: none;
+        }
+      }
+   }
+} 
+
+@if $hide_birthdays_from_anon == "true" {
+   .sidebar-section-link-wrapper {
+      .anon .sidebar-section-link {
          &[data-link-name="birthdays"] {
          display: none;
         }
