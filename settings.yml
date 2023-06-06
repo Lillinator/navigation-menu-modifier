@@ -56,6 +56,11 @@ hide_community_section:
   default: false
   description: "Hide the Community Section"
   
+more_section_background_color:
+  type: string
+  default: ""
+  description: "More section background color. Leave blank for default"
+    
 hide_anniversaries:
   type: bool
   default: false
