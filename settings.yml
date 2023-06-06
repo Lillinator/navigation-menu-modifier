@@ -150,4 +150,4 @@ category_bullet_rounding:
     - 30%
     - 40%
     - 50%
-  description: "Category bullet rounding. Blank = default square, 50% = circle."
+  description: "Category bullet rounding in sidebar. Blank = default square, 50% = circle."
