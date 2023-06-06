@@ -1,22 +1,22 @@
 sidebar_background_color:
   type: string
   default: ""
-  description: "Side-bar background color. Leave blank for default"
+  description: "Side-bar background color. Leave blank for default."
   
 header_font_color:
   type: string
   default: ""
-  description: "Section headers font color. Leave blank for default"
+  description: "Section headers font color. Leave blank for default."
 
 active_link_background_color:
   type: string
   default: ""
-  description: "Current link background color. Leave blank for default"
+  description: "Current link background color. Leave blank for default."
   
 active_link_font_color:
   type: string
   default: ""
-  description: "Current link font color. Leave blank for default"
+  description: "Current link font color. Leave blank for default."
 
 header_font_weight:
   type: enum
@@ -39,12 +39,12 @@ header_font_size:
     - 18
     - 19
     - 20
-  description: "Section headers text size in px. Leave blank for default"
+  description: "Section headers text size in px. Leave blank for default."
   
 link_font_color:
   type: string
   default: ""
-  description: "Section link font color Leave blank for default"
+  description: "Section link font color Leave blank for default."
 
 link_font_size:
   type: enum
@@ -59,62 +59,87 @@ link_font_size:
     - 18
     - 19
     - 20
-  description: "Section links text size in px. Leave blank for default"
+  description: "Section links text size in px. Leave blank for default."
 
 hide_community_section:
   type: bool
   default: false
   description: "Hide the Community Section"
   
+hide_community_section_from_anon:
+  type: bool
+  default: false
+  description: "Hide the Community Section from anonymous users only."
+  
 more_section_background_color:
   type: string
   default: ""
-  description: "More section background color. Leave blank for default"
+  description: "More section background color. Leave blank for default."
     
 hide_anniversaries:
   type: bool
   default: false
-  description: "Hide the Anniversaries link in the More section"
+  description: "Hide the Anniversaries link in the More section."
+    
+hide_anniversaries_from_anon:
+  type: bool
+  default: false
+  description: "Hide the Anniversaries link in the More section from anonymous users only."
   
 hide_birthdays:
   type: bool
   default: false
-  description: "Hide the Birthdays link in the More section"
+  description: "Hide the Birthdays link in the More section."
+  
+hide_birthdays_from_anon:
+  type: bool
+  default: false
+  description: "Hide the Birthdays link in the More section from anonymous users only."
   
 hide_categories_section:
   type: bool
   default: false
-  description: "Hide the Categories Section"
+  description: "Hide the Categories Section."
   
+hide_categories_from_anon:
+  type: bool
+  default: false
+  description: "Hide the Categories Section from anonymous users only."
+
 hide_tags_section:
   type: bool
   default: false
-  description: "Hide the Tags Section"
+  description: "Hide the Tags Section."
+  
+hide_tags_from_anon:
+  type: bool
+  default: false
+  description: "Hide the Tags Section from anonymous users only."
 
 hide_messages_section:
   type: bool
   default: false
-  description: "Hide the Messages Section"
+  description: "Hide the Messages Section."
 
 hide_channels_section:
   type: bool
   default: false
-  description: "Hide the Channels Section"
+  description: "Hide the Channels Section."
 
 hide_personal_chat_section:
   type: bool
   default: false
-  description: "Hide the Personal Chat Section"
+  description: "Hide the Personal Chat Section."
 
 hide_category_bullets:
   type: bool
   default: false
-  description: "Hide the Category bullets in the side-bar"
+  description: "Hide the Category bullets in the side-bar."
   
 hide_lock_icon:
   type: bool
   default: false
-  description: "Hide the lock badge icon for secured categories in the side-bar"
+  description: "Hide the lock badge icon for secured categories in the side-bar."
 
 category_bullet_rounding:
   type: enum
@@ -126,7 +151,7 @@ category_bullet_rounding:
     - 30%
     - 40%
     - 50%
-  description: "Category bullet rounding. 0 = square, 50% = circle"
+  description: "Category bullet rounding. 0 = square, 50% = circle."
   
 current_link_icon_color:
   type: enum
@@ -145,4 +170,4 @@ current_link_icon_color:
     - slategrey
     - white
     - black
-  description: "Color of the current link icon. Leave blank for default"
+  description: "Color of the current link icon. Leave blank for default."
