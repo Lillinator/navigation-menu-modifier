@@ -2,6 +2,11 @@ sidebar_background_color:
   type: string
   default: ""
   description: "Side-bar background color in hexadecimal or css color name. Leave blank to use current default."
+  
+more_section_background_color:
+  type: string
+  default: ""
+  description: "More section background color. Leave blank to use current default."
 
 header_font_color:
   type: string
@@ -90,12 +95,7 @@ hide_birthdays:
   type: bool
   default: false
   description: "Hide the Birthdays link in the More section."
-  
-more_section_background_color:
-  type: string
-  default: ""
-  description: "More section background color. Leave blank to use current default."
-  
+
 hide_categories_section:
   type: bool
   default: false
