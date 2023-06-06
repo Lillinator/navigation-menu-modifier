@@ -76,6 +76,11 @@ hide_category_bullets:
   default: false
   description: "Hide the Category bullets"
   
+hide_lock_icon:
+  type: bool
+  default: false
+  description: "Hide the lock badge icon for secured categories in the side-bar"
+
 category_bullet_rounding:
   type: enum
   default: 0
@@ -86,12 +91,7 @@ category_bullet_rounding:
     - 30%
     - 40%
     - 50%
-  description: "Category bullet rounding"
-  
-hide_lock_icon:
-  type: bool
-  default: false
-  description: "Hide the lock badge icon for secured categories"
+  description: "Category bullet rounding. 0 = square, 50% = circle"
   
 current_link_icon_color:
   type: enum
