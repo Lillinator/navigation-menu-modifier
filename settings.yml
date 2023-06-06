@@ -4,7 +4,7 @@ sidebar_background_color:
   description: "Side-bar background color."
   
 more_section_background_color:
-  type: string
+  type: enum
   default: ""
   choices:
     - aliceblue
