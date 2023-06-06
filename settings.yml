@@ -1,17 +1,17 @@
 sidebar_background_color:
   type: string
   default: ""
-  description: "Side-bar background color in hexadecimal or css color name. Leave blank to use your existing default."
+  description: "Side-bar background color in hexadecimal or css color name. Leave blank to use current default."
   
 more_section_background_color:
   type: string
   default: ""
-  description: "More section background color. Leave blank to use your existing default."
+  description: "More section background color. Leave blank to use current default."
 
 header_font_color:
   type: string
   default: ""
-  description: "Section headers font color. Leave blank to use your existing default."
+  description: "Section headers font color. Leave blank to use current default."
 
 header_font_weight:
   type: enum
@@ -34,12 +34,12 @@ header_font_size:
     - 18
     - 19
     - 20
-  description: "Section headers text size in px. Leave blank to use your existing default."
+  description: "Section headers text size in px. Leave blank to use current default."
   
 link_font_color:
   type: string
   default: ""
-  description: "Section link font color. Leave blank to use your existing default."
+  description: "Section link font color. Leave blank to use current default."
 
 link_font_size:
   type: enum
@@ -54,27 +54,27 @@ link_font_size:
     - 18
     - 19
     - 20
-  description: "Section links text size in px. Leave blank to use your existing default."
+  description: "Section links text size in px. Leave blank to use current default."
 
 link_icon_color:
   type: string
   default: ""
-  description: "Color of sidebar link icons. Leave blank to use your existing default."
+  description: "Color of sidebar link icons. Leave blank to use current default."
   
 current_link_font_color:
   type: string
   default: ""
-  description: "Color of the currently active link font. Leave blank to use your existing default."
+  description: "Color of the currently active link font. Leave blank to use current default."
   
 current_link_background_color:
   type: string
   default: ""
-  description: "Background color of the currently active link. Leave blank to use your existing default."
+  description: "Background color of the currently active link. Leave blank to use current default."
  
 current_link_icon_color:
   type: string
   default: ""
-  description: "Color of the currently active link icon. Leave blank to use your existing default."
+  description: "Color of the currently active link icon. Leave blank to use current default."
   
 hide_community_section:
   type: bool
