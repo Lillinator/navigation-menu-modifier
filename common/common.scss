@@ -33,8 +33,8 @@ body.has-sidebar-page #main-outlet-wrapper {
 // * active link color *
 
 .sidebar-section-link-wrapper .sidebar-section-link.active {
-    color: $active_link_font_color;
-    background: $active_link_background_color;
+    color: $current_link_font_color;
+    background: $current_link_background_color;
 }
 
 // * section headers formatting *
