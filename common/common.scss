@@ -1,29 +1,3 @@
-// * sidebar background color *
-
-#main-outlet-wrapper {
-    .sidebar-wrapper {
-       background-color: $sidebar_background_color;
-    }
-}
-
-// * sidebar footer background color *
-
-.sidebar-footer-wrapper .sidebar-footer-container {
-    background-color: $sidebar_background_color;
-}
-
-// * More section background color *
-
-.sidebar-more-section-links-details-content {
-    background-color: $more_section_background_color;
-}
-
-// * active link color *
-.sidebar-section-link-wrapper .sidebar-section-link.active {
-    color: $active_link_font_color;
-    background: $active_link_background_color;
-}
-
 // * sidebar gap to main body *
 
 body.has-sidebar-page #main-outlet-wrapper {
