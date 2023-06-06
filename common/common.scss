@@ -114,7 +114,7 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 // * side-bar link icon color clicked *
 .sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon {
-    color: red;
+    color: $current_link_icon_color;
 }
 
 // * More sections to hide *
