@@ -24,6 +24,10 @@
     background-color: $sidebar_background_color;
 }
 
+.sidebar-footer-wrapper .sidebar-footer-container:before {
+    background: none;
+}
+
 // * More section background color *
 
 .sidebar-more-section-links-details-content {
