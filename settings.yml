@@ -89,21 +89,11 @@ hide_anniversaries:
   type: bool
   default: false
   description: "Hide the Anniversaries link in the More section."
-    
-hide_anniversaries_from_anon:
-  type: bool
-  default: false
-  description: "Hide the Anniversaries link in the More section from anonymous users only."
-  
+
 hide_birthdays:
   type: bool
   default: false
   description: "Hide the Birthdays link in the More section."
-  
-hide_birthdays_from_anon:
-  type: bool
-  default: false
-  description: "Hide the Birthdays link in the More section from anonymous users only."
   
 hide_categories_section:
   type: bool
