@@ -1,22 +1,7 @@
-sidebar_background_color:
-  type: string
-  default: ""
-  description: "Side-bar background color. Leave blank for default."
-  
 header_font_color:
   type: string
   default: ""
   description: "Section headers font color. Leave blank for default."
-
-active_link_background_color:
-  type: string
-  default: ""
-  description: "Current link background color. Leave blank for default."
-  
-active_link_font_color:
-  type: string
-  default: ""
-  description: "Current link font color. Leave blank for default."
 
 header_font_weight:
   type: enum
@@ -60,6 +45,11 @@ link_font_size:
     - 19
     - 20
   description: "Section links text size in px. Leave blank for default."
+  
+active_link_font_color:
+  type: string
+  default: ""
+  description: "Current link font color. Leave blank for default."
 
 hide_community_section:
   type: bool
@@ -70,11 +60,6 @@ hide_community_section_from_anon:
   type: bool
   default: false
   description: "Hide the Community Section from anonymous users only."
-  
-more_section_background_color:
-  type: string
-  default: ""
-  description: "More section background color. Leave blank for default."
     
 hide_anniversaries:
   type: bool
