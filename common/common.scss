@@ -42,6 +42,12 @@ body.has-sidebar-page #main-outlet-wrapper {
     // align-items: left;
 }
 
+// * side-bar link icon color clicked *
+
+.sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon {
+    color: $current_link_icon_color;
+}
+
 // * hide the Community Section *
 
  @if $hide_community_section == "true" {
@@ -114,11 +120,6 @@ body.has-sidebar-page #main-outlet-wrapper {
     }
  } 
 
-// * side-bar link icon color clicked *
-.sidebar-section-link-wrapper .sidebar-section-link.active .sidebar-section-link-prefix.icon {
-    color: $current_link_icon_color;
-}
-
 // * More sections to hide *
 
 @if $hide_anniversaries == "true" {
@@ -140,14 +141,3 @@ body.has-sidebar-page #main-outlet-wrapper {
       }
    }
 } 
-
-//.sidebar-section-link-wrapper {
-//      .sidebar-section-link {
-//      &[data-tag-name="code"] {
-//          display: none;
-      //.d-icon.d-icon-tag {
-      //  color: red;
-      // }
-  //   }
- // }
-//}
