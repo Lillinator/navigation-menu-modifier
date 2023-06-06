@@ -74,7 +74,7 @@ hide_personal_chat_section:
 hide_category_bullets:
   type: bool
   default: false
-  description: "Hide the Category bullets"
+  description: "Hide the Category bullets in the side-bar"
   
 hide_lock_icon:
   type: bool
@@ -112,4 +112,3 @@ current_link_icon_color:
     - white
     - black
   description: "Color of the current link icon"
-  
