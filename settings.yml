@@ -20,6 +20,7 @@ header_font_size:
   type: enum
   default: auto
   choices:
+    - 11
     - 12
     - 13
     - 14
@@ -27,11 +28,24 @@ header_font_size:
     - 16
     - 17
     - 18
+    - 19
+    - 20
   description: "Section headers text size in px"
   
 link_font_color:
-  type: string
+  type: enum
   default: auto
+  choices:
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
   description: "Section link font color"
 
 link_font_size:
