@@ -61,6 +61,12 @@ body.has-sidebar-page #main-outlet-wrapper {
     color: $current_link_icon_color;
 }
 
+// * side-bar link icon color *
+
+.sidebar-section-link-wrapper .sidebar-section-link .sidebar-section-link-prefix.icon {
+    color: $link_icon_color;
+}
+
 // * hide the Community Section *
 
  @if $hide_community_section == "true" {
