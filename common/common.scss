@@ -145,29 +145,9 @@ body.has-sidebar-page #main-outlet-wrapper {
    }
 } 
 
-@if $hide_anniversaries_from_anon == "true" {
-   .sidebar-section-link-wrapper {
-      .anon .sidebar-section-link {
-         &[data-link-name="anniversaries"] {
-         display: none;
-        }
-      }
-   }
-} 
-
 @if $hide_birthdays == "true" {
    .sidebar-section-link-wrapper {
       .sidebar-section-link {
-         &[data-link-name="birthdays"] {
-         display: none;
-        }
-      }
-   }
-} 
-
-@if $hide_birthdays_from_anon == "true" {
-   .sidebar-section-link-wrapper {
-      .anon .sidebar-section-link {
          &[data-link-name="birthdays"] {
          display: none;
         }
