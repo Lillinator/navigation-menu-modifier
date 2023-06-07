@@ -188,7 +188,7 @@ hide_custom_section_from_users:
   description:
     en: "Hide a custom section from everyone except Staff (admins and moderators). Hide from anonymous users setting above must be disabled."
  
-custom_section:
+custom_section_to_hide:
   type: string
   default: ""
   description:
