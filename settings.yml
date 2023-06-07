@@ -175,3 +175,21 @@ category_bullet_rounding:
     - 50%
   description: 
     en: "Side-bar category bullet rounding. Blank = default square, 50% = circle."
+
+hide_custom_section_from_anon:
+  type: bool
+  default: false
+  description:
+    en: "Hide a custom section from anonymous users."
+
+hide_custom_section_from_users:
+  type: bool
+  default: false
+  description:
+    en: "Hide a custom section from everyone except Staff (admins and moderators). Hide from anonymous users setting above must be disabled."
+ 
+custom_section:
+  type: string
+  default: ""
+  description:
+    en: "Custom section to hide from anon or regular users as specfied in above two settings."
