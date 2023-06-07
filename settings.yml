@@ -192,4 +192,4 @@ custom_section:
   type: string
   default: ""
   description:
-    en: "Custom section to hide from anon or regular users as specfied in above two settings."
+    en: "Custom section to hide from anon or regular users as specfied in above two settings. User all lowercase and dashes for spaces (ie: forum-links)."
