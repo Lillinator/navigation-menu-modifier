@@ -175,3 +175,18 @@
       }
    }
 } 
+
+// * hide custom sections *
+
+@if $hide_custom_section_from_anon == "true" {
+    .anon .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section}"] {
+        display: none;
+    }
+}
+
+@if $hide_custom_section_from_users == "true" {
+  body:not(.staff) {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="#{$custom_section}"] {
+        display: none;
+    }
+}
