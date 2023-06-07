@@ -61,82 +61,82 @@
 
 // * hide the Community Section *
 
- @if $hide_community_section == "true" {
+@if $hide_community_section == "true" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
     display: none;
     }
- } 
+} 
 
 // * hide the Community Section from anon users *
 
- @if $hide_community_section_from_anon == "true" {
+@if $hide_community_section_from_anon == "true" {
     .anon .sidebar-section-wrapper.sidebar-section[data-section-name="community"] {
     display: none;
     }
- } 
+} 
 
 // * hide the Categories Section *
 
- @if $hide_categories_section == "true" {
+@if $hide_categories_section == "true" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="categories"] {
     display: none;
     }
- } 
+} 
 
 // * hide the Categories Section from anon users *
 
- @if $hide_categories_from_anon == "true" {
+@if $hide_categories_from_anon == "true" {
     .anon .sidebar-section-wrapper.sidebar-section[data-section-name="categories"] {
     display: none;
     }
- } 
+} 
 
 // * hide the Tags Section *
 
- @if $hide_tags_section == "true" {
+@if $hide_tags_section == "true" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="tags"] {
     display: none;
     }
- } 
+} 
 // * hide the Tags Section from anon users *
 
- @if $hide_tags_from_anon == "true" {
+@if $hide_tags_from_anon == "true" {
     .anon .sidebar-section-wrapper.sidebar-section[data-section-name="tags"] {
     display: none;
     }
- } 
+} 
 
 // * hide the Messages Section *
 
- @if $hide_messages_section == "true" {
+@if $hide_messages_section == "true" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="messages"] {
     display: none;
-    }
- } 
+   }
+} 
 
 // * hide the Channels Section *
 
- @if $hide_channels_section == "true" {
+@if $hide_channels_section == "true" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="channels"] {
     display: none;
-    }
- } 
+   }
+} 
 
 // * hide the Personal Chat Section *
 
- @if $hide_personal_chat_section == "true" {
+@if $hide_personal_chat_section == "true" {
     .sidebar-section-wrapper.sidebar-section[data-section-name="personal-chat"] {
     display: none;
     }
- } 
+} 
 
 // * hide category bullets *
 
- @if $hide_category_bullets == "true" {
+@if $hide_category_bullets == "true" {
     .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
     display: none;
     }
- } 
+} 
 
 // * sidebar category bullet styling *
 
