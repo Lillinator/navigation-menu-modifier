@@ -91,7 +91,7 @@ hide_community_section:
   type: bool
   default: false
   description: 
-    en: "Hide the side-bar Community Section from all regular users"
+    en: "Hide the side-bar Community Section from all users"
   
 hide_community_section_from_anon:
   type: bool
@@ -115,7 +115,7 @@ hide_categories_section:
   type: bool
   default: false
   description: 
-    en: "Hide the sidebar Categories Section from all regular users."
+    en: "Hide the sidebar Categories Section from all users."
   
 hide_categories_from_anon:
   type: bool
@@ -127,7 +127,7 @@ hide_tags_section:
   type: bool
   default: false
   description: 
-    en: "Hide the side-bar Tags Section from all regular users."
+    en: "Hide the side-bar Tags Section from all users."
   
 hide_tags_from_anon:
   type: bool
