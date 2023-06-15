@@ -87,12 +87,6 @@ current_link_icon_color:
   description: 
     en: "Color of the active side-bar link icon. Leave blank to use current default."
 
-hide_all_from_anon:
-  type: bool
-  default: false
-  description: 
-    en: "Hide the entire side-bar from anonymous users"  
-
 hide_community_section:
   type: bool
   default: false
@@ -199,3 +193,9 @@ custom_section_to_hide:
   default: ""
   description:
     en: "Custom section to hide from anon or regular users as specfied in above two settings. User all lowercase and dashes for spaces (ie: forum-links)."
+
+hide_all_from_anon:
+  type: bool
+  default: false
+  description: 
+    en: "Hide the entire side-bar from anonymous users"  
