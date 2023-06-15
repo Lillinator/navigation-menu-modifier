@@ -86,7 +86,13 @@ current_link_icon_color:
   default: ""
   description: 
     en: "Color of the active side-bar link icon. Leave blank to use current default."
-  
+
+hide_all_from_anon:
+  type: bool
+  default: false
+  description: 
+    en: "Hide the entire side-bar from anonymous users"  
+
 hide_community_section:
   type: bool
   default: false
