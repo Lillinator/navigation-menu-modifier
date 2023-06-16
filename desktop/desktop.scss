@@ -1,4 +1,5 @@
-html.anon {
+@if $hide_all_from_anon == "true" {
+  html.anon {
   // If sidebar opened use the closed style
   body.has-sidebar-page {
     #main-outlet-wrapper {
@@ -14,4 +15,5 @@ html.anon {
   .header-sidebar-toggle {
     display: none;
   }
+ }
 }
