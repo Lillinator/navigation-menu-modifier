@@ -142,7 +142,7 @@
 // * hide the Channels Section *
 
 @if $hide_channels_section == "true" {
-    .sidebar-section-wrapper.sidebar-section[data-section-name="channels"] {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="chat-channels"] {
     display: none;
    }
 } 
@@ -150,7 +150,7 @@
 // * hide the Personal Chat Section *
 
 @if $hide_personal_chat_section == "true" {
-    .sidebar-section-wrapper.sidebar-section[data-section-name="personal-chat"] {
+    .sidebar-section-wrapper.sidebar-section[data-section-name="chat-dms"] {
     display: none;
     }
 } 
