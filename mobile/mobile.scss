@@ -1,9 +1,11 @@
-html.anon {
+@if $hide_all_from_anon == "true" {
+  html.anon {
   // Hide hamburger button
-  .d-header-icons {
-    .header-dropdown-toggle {
-      &.hamburger-dropdown {
+    .d-header-icons {
+      .header-dropdown-toggle {
+        &.hamburger-dropdown {
         display: none;
+        }
       }
     }
   }
