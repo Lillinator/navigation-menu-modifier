@@ -1,0 +1,10 @@
+html.anon {
+  // Hide hamburger button
+  .d-header-icons {
+    .header-dropdown-toggle {
+      &.hamburger-dropdown {
+        display: none;
+      }
+    }
+  }
+}
