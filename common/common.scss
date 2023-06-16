@@ -59,21 +59,30 @@
     color: $link_icon_color;
 }
 
-// * hide entire Sidebar from anon *
+// * hide entire Navigaion Menu from anon in desktop and mobile view*
 
 @if $hide_all_from_anon == "true" {
-    html.anon {
+.anon .sidebar-wrapper .sidebar-container,  
+    .header-sidebar-toggle,
+    .d-header .hamburger-panel,
+    .hamburger-dropdown,
+    .header-cloak {
+    display: none
+    }
+}
+
+//    html.anon {
         // Hide the narrow desktop sidebar 
         // sidebar mobile version which is activate on desktop too under 1000px width
-        .d-header .hamburger-panel {
-          display: none;
-        }
-        // Hide the header cloak when menu opens
-        .header-cloak {
-            display: none !important;
-        }
-    }
-} 
+//        .d-header .hamburger-panel {
+//          display: none;
+//        }
+//        // Hide the header cloak when menu opens
+//        .header-cloak {
+//            display: none !important;
+//        }
+//    }
+//} 
 
 // * hide the Community Section *
 
