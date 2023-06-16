@@ -1,4 +1,4 @@
-# Discourse sidebar navigation menu modifier
+# Discourse navigation menu modifier
 This theme component allows various customization of the Discourse forum sidebar navigation menu sections and properties. Thanks to @Nathank and @dodesz for code contributions. 
 
 This component can do the following:
