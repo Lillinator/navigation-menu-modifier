@@ -103,21 +103,21 @@
 
 // * hide More section from anon users *
 
-@if $hide_more_section_from_anon == "true" {
-    .anon .btn-flat.sidebar-more-section-links-details-summary, 
-    .anon .sidebar-more-section-links-details-summary.json-editor-btn-collapse {
-    display: none;
-    }
-}
+//@if $hide_more_section_from_anon == "true" {
+//    .anon .btn-flat.sidebar-more-section-links-details-summary, 
+//    .anon .sidebar-more-section-links-details-summary.json-editor-btn-collapse {
+//    display: none;
+//    }
+//}
 
 // * hide More section from all users *
 
-@if $hide_more_section == "true" {
-    .btn-flat.sidebar-more-section-links-details-summary, 
-    .sidebar-more-section-links-details-summary.json-editor-btn-collapse {
-    display: none;
-    }
-}
+//@if $hide_more_section == "true" {
+//    .btn-flat.sidebar-more-section-links-details-summary, 
+//    .sidebar-more-section-links-details-summary.json-editor-btn-collapse {
+//    display: none;
+//    }
+//}
 
 
 // * hide the Categories Section *
