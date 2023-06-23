@@ -99,6 +99,18 @@ hide_community_section_from_anon:
   description: 
     en: "Hide the side-bar Community Section from anonymous users only."
 
+hide_more_section:
+  type: bool
+  default: false
+  description: 
+    en: "Hide the side-bar More Section from all users."
+  
+hide__more_section_from_anon:
+  type: bool
+  default: false
+  description: 
+    en: "Hide the side-bar More Section from anonymous users only."
+    
 hide_anniversaries:
   type: bool
   default: false
