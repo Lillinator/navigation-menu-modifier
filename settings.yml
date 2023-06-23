@@ -104,7 +104,7 @@ hide_more_section:
   default: false
   description: 
     en: "Hide the side-bar More Section from all users."
-  
+
 hide__more_section_from_anon:
   type: bool
   default: false
