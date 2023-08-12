@@ -221,6 +221,16 @@
    }
 } 
 
+@if $hide_docs == "true" {
+   .sidebar-section-link-wrapper {
+      .sidebar-section-link {
+         &[data-link-name="docs"] {
+         display: none;
+        }
+      }
+   }
+} 
+
 // * hide custom sections *
 
 @if $hide_custom_section_from_anon == "true" {
