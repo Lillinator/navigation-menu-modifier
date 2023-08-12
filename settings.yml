@@ -123,6 +123,12 @@ hide_birthdays:
   description: 
     en: "Hide the Birthdays link in the More section."
 
+hide_docs:
+  type: bool
+  default: false
+  description: 
+    en: "Hide the Docs link in the More section."
+
 hide_categories_section:
   type: bool
   default: false
