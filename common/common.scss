@@ -194,7 +194,7 @@
 // * hide the lock icon for all secure categories in the sidebar *
 
 @if $hide_lock_icon == "true" {
-    .sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge, .sidebar-section-link-wrapper .sidebar-section-link-prefix.span .prefix-badge {
+    .sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge {
     display: none;
     }
  } 
