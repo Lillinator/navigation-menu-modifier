@@ -1,4 +1,9 @@
-# Discourse navigation menu modifier
+
+# THIS COMPONENT HAS BEEN SUPERCEDED BY THE NAVIGATION MENU DISPLAY CONTROL THEME COMPONENT: https://github.com/Lillinator/navigation-menu-display-control
+
+## Discourse navigation menu modifier
+
+
 This theme component allows various customization of the Discourse forum sidebar navigation menu sections and properties. Thanks to @Nathank and @Don for code contributions. 
 
 This component can do the following:
